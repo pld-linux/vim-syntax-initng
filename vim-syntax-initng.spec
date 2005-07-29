@@ -4,12 +4,12 @@
 %define		_snap 20050729
 Summary:	Vim syntax: initng
 Name:		vim-syntax-initng
-Version:	0.1
-Release:	0.%{_snap}.1
+Version:	0.2
+Release:	0.%{_snap}.7
 License:	GPL
 Group:		Applications/Editors/Vim
 Source0:	http://glen.alkohol.ee/pld/initng/initng-vim-%{_snap}.tar.bz2
-# Source0-md5:	014b41810a8c3a470beaa40c542770c5
+# Source0-md5:	4b640815358793d78e367f3b9b281925
 URL:		http://glen.alkohol.ee/pld/initng/
 # for _vimdatadir existence
 Requires:	vim >= 4:6.3.058-3
