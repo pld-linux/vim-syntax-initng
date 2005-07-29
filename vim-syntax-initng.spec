@@ -5,12 +5,12 @@
 Summary:	Vim syntax: initng
 Name:		vim-syntax-initng
 Version:	0.2
-Release:	0.%{_snap}.7
+Release:	0.%{_snap}.8
 License:	GPL
 Group:		Applications/Editors/Vim
-Source0:	http://glen.alkohol.ee/pld/initng/initng-vim-%{_snap}.tar.bz2
+Source0:	http://glen.alkohol.ee/pld/initng/vim/initng-vim-%{_snap}.tar.bz2
 # Source0-md5:	4b640815358793d78e367f3b9b281925
-URL:		http://glen.alkohol.ee/pld/initng/
+URL:		http://glen.alkohol.ee/pld/initng/vim/
 # for _vimdatadir existence
 Requires:	vim >= 4:6.3.058-3
 BuildArch:	noarch
