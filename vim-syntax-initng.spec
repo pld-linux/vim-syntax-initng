@@ -2,9 +2,9 @@
 Summary:	Vim syntax: initng
 Summary(pl):	Sk³adnia dla Vima: initng
 Name:		vim-syntax-initng
-Version:	0.2
+Version:	0.4.4
 %define		_snap 20051123
-Release:	0.%{_snap}.1
+Release:	0.%{_snap}
 License:	GPL
 Group:		Applications/Editors/Vim
 Source0:	http://glen.alkohol.ee/pld/initng/vim/initng-vim-%{_snap}.tar.bz2
