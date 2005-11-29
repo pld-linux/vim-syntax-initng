@@ -24,7 +24,7 @@ This plugin provides syntax highlighting for initng files.
 Ta wtyczka dostarcza pod¶wietlanie sk³adni dla plików initng.
 
 %prep
-%setup -q -n initng-vim-%{_snap}
+%setup -q -n initng-vim-%{version}-%{_snap}
 
 %install
 rm -rf $RPM_BUILD_ROOT
