@@ -1,20 +1,20 @@
-%define		_vimdatadir	%{_datadir}/vim/vimfiles
 Summary:	Vim syntax: initng
 Summary(pl):	Sk³adnia dla Vima: initng
 Name:		vim-syntax-initng
-Version:	0.4.4
-%define		_snap 20051123
-Release:	0.%{_snap}
+Version:	0.4.6
+%define		_snap 20051129
+Release:	0.%{_snap}.1
 License:	GPL
 Group:		Applications/Editors/Vim
-Source0:	http://glen.alkohol.ee/pld/initng/vim/initng-vim-%{_snap}.tar.bz2
-# Source0-md5:	25c132cfa563bdc8609cd3a2054415af
+Source0:	http://glen.alkohol.ee/pld/initng/vim/initng-vim-%{version}-%{_snap}.tar.bz2
+# Source0-md5:	8d1c81928810aae4674d9be76264670f
 URL:		http://glen.alkohol.ee/pld/initng/vim/
 # for _vimdatadir existence
 Requires:	vim >= 4:6.3.058-3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_vimdatadir	%{_datadir}/vim/vimfiles
 %define		_syntax initng
 
 %description
