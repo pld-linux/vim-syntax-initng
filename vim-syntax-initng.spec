@@ -3,11 +3,11 @@ Summary(pl):	Sk³adnia dla Vima: initng
 Name:		vim-syntax-initng
 Version:	0.4.6
 %define		_snap 20051130
-Release:	0.%{_snap}.1
+Release:	0.%{_snap}.2
 License:	GPL
 Group:		Applications/Editors/Vim
 Source0:	http://glen.alkohol.ee/pld/initng/vim/initng-vim-%{version}-%{_snap}.tar.bz2
-# Source0-md5:	9bd70eed8df7bc581e6cf0166452cdaf
+# Source0-md5:	7c7d5b6f423692a08a68ee5aba75306b
 URL:		http://glen.alkohol.ee/pld/initng/vim/
 # for _vimdatadir existence
 Requires:	vim >= 4:6.3.058-3
