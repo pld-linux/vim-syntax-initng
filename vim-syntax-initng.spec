@@ -1,5 +1,5 @@
 Summary:	Vim syntax: initng
-Summary(pl):	Sk³adnia dla Vima: initng
+Summary(pl.UTF-8):   SkÅ‚adnia dla Vima: initng
 Name:		vim-syntax-initng
 Version:	0.5.4
 %define		_snap 20060227
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This plugin provides syntax highlighting for initng files.
 
-%description -l pl
-Ta wtyczka dostarcza pod¶wietlanie sk³adni dla plików initng.
+%description -l pl.UTF-8
+Ta wtyczka dostarcza podÅ›wietlanie skÅ‚adni dla plikÃ³w initng.
 
 %prep
 %setup -q -n initng-vim-%{version}-%{_snap}
