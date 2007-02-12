@@ -1,5 +1,5 @@
 Summary:	Vim syntax: initng
-Summary(pl.UTF-8):   Składnia dla Vima: initng
+Summary(pl.UTF-8):	Składnia dla Vima: initng
 Name:		vim-syntax-initng
 Version:	0.5.4
 %define		_snap 20060227
